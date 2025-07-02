@@ -1,0 +1,38 @@
+{
+  "name": "jobbridge",
+  "version": "1.0.0",
+  "description": "Baseline Node.js app for Summative Phase 1 with Express, Jest, ESLint, and CI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbukDuot/JobBridge.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "eslint",
+    "jest",
+    "ci"
+  ],
+  "author": "Abuk Duot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbukDuot/JobBridge/issues"
+  },
+  "homepage": "https://github.com/AbukDuot/JobBridge#readme",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "jest": "^30.0.3"
+  }
+}
