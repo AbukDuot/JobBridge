@@ -9,10 +9,11 @@ http://jobbridge.azurewebsites.net
 
 ### Azure Container Registry
 
-![Container Registry](screenshots/web%20app.png)
+https://github.com/AbukDuot/JobBridge/blob/develop/screenshots/Screenshot%202025-07-24%20030228.png
 
 ### Web App Resource
-![Web App Screenshot](screenshots/web%20app.png)
+
+<img width="1355" height="589" alt="Screenshot 2025-07-24 140741" src="https://github.com/user-attachments/assets/01c7bbd9-f37d-41c6-8e13-8db87cbbdeec" />
 
 ---
 
