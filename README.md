@@ -13,6 +13,7 @@ JobBridge is a professional Node.js/Express application designed to demonstrate 
 - [Application Development & CI](#application-development--ci)
 - [Challenges and Solutions](#challenges-and-solutions)
 - [Local Setup Instructions](#local-setup-instructions)
+- [Docker-Based Setup Instructions](#docker-based-setup-instructions)
 - [Links](#links)
 - [License](#license)
 
@@ -115,6 +116,18 @@ Utilized GitHub Projects to break down work into milestones and tasks, tracking 
    npm run lint
    ```
 
+## Build the Docker image:
+```sh
+docker build -t jobbridge-app .
+```
+## Run the container:
+```sh
+docker run -d -p 3000:3000 --env-file .env jobbridge-app
+```
+## Access the app:
+```sh
+Visit http://localhost:3000 in your web browser.
+```
 ---
 
 ## Links
