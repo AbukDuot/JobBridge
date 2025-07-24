@@ -8,7 +8,8 @@ http://jobbridge.azurewebsites.net
 ## Screenshots of Azure Resources
 
 ### Azure Container Registry
-![ACR Screenshot](screenshots/acr.png)
+
+![Container Registry](screenshots/web%20app.png)
 
 ### Web App Resource
 ![Web App Screenshot](screenshots/web%20app.png)
