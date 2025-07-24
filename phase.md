@@ -9,7 +9,8 @@ http://jobbridge.azurewebsites.net
 
 ### Azure Container Registry
 
-<img width="1352" height="597" alt="Screenshot 2025-07-24 030228" src="https://github.com/user-attachments/assets/cfbbc6bb-f680-4954-904a-74391c37a01f" />
+alt="Screenshot 2025-07-24 030228" src="https://github.com/user-attachments/assets/4ad584bb-4d56-45f1-8b49-b7054da711bd"
+
 
 ### Web App Resource
 
