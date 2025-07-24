@@ -9,12 +9,14 @@ http://jobbridge.azurewebsites.net
 
 ### Azure Container Registry
 
-![Container Registry](screenshots/web%20app.png)
+![Container Registry](./screenshots/acr.png)
 
 ### Web App Resource
 
-![Web App Screenshot](screenshots/web%20app.png)
+![Web App Screenshot](./screenshots/web app.png)
 
+### Resource Group
+![Resource Group](./screenshots/resource.png)
 ---
 
 ## Peer Review Pull Request
