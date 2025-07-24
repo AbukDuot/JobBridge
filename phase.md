@@ -8,13 +8,10 @@ http://jobbridge.azurewebsites.net
 ## Screenshots of Azure Resources
 
 ### Azure Container Registry
-
-"https://github.com/user-attachments/assets/4ad584bb-4d56-45f1-8b49-b7054da711bd"
-
+![ACR Screenshot](screenshots/acr.png)
 
 ### Web App Resource
-
-<img width="1355" height="589" alt="Screenshot 2025-07-24 140741" src="https://github.com/user-attachments/assets/01c7bbd9-f37d-41c6-8e13-8db87cbbdeec" />
+![Web App Screenshot](screenshots/web%20app.png)
 
 ---
 
