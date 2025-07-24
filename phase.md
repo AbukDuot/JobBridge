@@ -9,8 +9,7 @@ http://jobbridge.azurewebsites.net
 
 ### Azure Container Registry
 
-"https://github.com/user-attachments/assets/4ad584bb-4d56-45f1-8b49-b7054da711bd"
-
+https://github.com/AbukDuot/JobBridge/blob/develop/screenshots/Screenshot%202025-07-24%20030228.png
 
 ### Web App Resource
 
