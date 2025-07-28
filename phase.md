@@ -21,7 +21,7 @@ Here is the public URL of my deployed application:
 Below are screenshots of the resources I provisioned in Azure:
 
 ###  Resource Group
-[Resource Group](./screenshots/resource.png)
+[Resource Group](./screenshots/resource-group.png)
 ###  App Service
 [App services](./screenshots/webapp.png)
 ###  Azure Container Registry 
