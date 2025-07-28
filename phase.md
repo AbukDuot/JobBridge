@@ -29,7 +29,7 @@ Below are screenshots of the resources I provisioned in Azure:
 
 ##  3. Peer Review Pull Request
 
-I have reviewed a peer's pull request as part of the assignment:
+I reviewed this peer's pull request:
 
 *Peer PR Review*: [https://github.com/dorcusmalony/HerRaise_Planning_CI-Foundation/pull/28/]
 
