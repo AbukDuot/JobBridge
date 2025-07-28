@@ -1,33 +1,47 @@
-## `phase.md` File – Deployment & Reflection
+# Containerization & Infrastructure as Code
 
-### `phase.md` Template:
-```md
-## Live Application URL
-http://jobbridge.azurewebsites.net
+## Objectives
 
-## Screenshots of Azure Resources
+-  Containerize the jobbridge application
+-  Define cloud infrastructure as code using Terraform
+-  Perform manual cloud deployment
+-  Conduct peer code review
+- Document the process and challenges
 
-### Azure Container Registry
 
-![Container Registry](./screenshots/acr.png)
+##  1. Live Deployed URL
 
-### Web App Resource
+Here is the public URL of my deployed application:
 
-![Web App Screenshot](./screenshots/web app.png)
+ *Live Application*: [Live link to jobbridge website](http://jobbridge.azurewebsites.net/)
 
-### Resource Group
-![Resource Group](./screenshots/resource.png)
----
 
-## Peer Review Pull Request
+##  2. Screenshots of Provisioned Resources
 
-I reviewed this PR: [Peer Review PR](https://github.com/peer-username/peer-project/pull/12)
+Below are screenshots of the resources I provisioned in Azure:
 
----
+###  Resource Group
+[Resource Group](./screenshots/resource-group.png)
+###  App Service
+[App services](./screenshots/webapp.png)
+###  Azure Container Registry 
+[ACR](./screenshots/acr.png)
 
-## Reflection: Challenges of IaC vs Manual Deployment
+##  3. Peer Review Pull Request
 
-Setting up cloud infrastructure manually through the Azure CLI taught me the importance of automation. While it was helpful for learning, manual deployment is more prone to human error and takes time. In contrast, using Infrastructure as Code (IaC) allows us to provision resources consistently and faster using templates like Bicep or ARM. I now better appreciate the value of IaC for repeatable and scalable deployments, especially in team environments.
+I reviewed this peer's pull request:
 
----
+*Peer PR Review*: [https://github.com/dorcusmalony/HerRaise_Planning_CI-Foundation/pull/28/]
 
+
+## 4. Reflection on Challenges
+
+### Infrastructure as Code Challenges
+- *Azure Provider Learning*: Acess  Azure Terraform providers was not easy as and it  required understanding different resource structures
+- *Resource Dependencies*: Managing the correct order of resource creation, especially with networking and database connections was that easy 
+- *Terraform State*: Understanding how to properly manage Terraform state for team collaboration
+
+### Manual Deployment Process
+- *Container Registry Setup*: Initially struggled with ACR authentication and permissions
+- *App Service Configuration*: Learning to properly configure environment variables and container settings
+- *Database Connectivity*: Ensuring the App Service could connect to PostgreSQL with proper firewall rules
