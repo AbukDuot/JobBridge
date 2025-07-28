@@ -31,7 +31,7 @@ Below are screenshots of the resources I provisioned in Azure:
 
 I have reviewed a peer's pull request as part of the assignment:
 
-*Peer PR Review*: [https://github.com/dorcusmalony/HerRaise_Planning_CI-Foundation/pull/23]
+*Peer PR Review*: [https://github.com/dorcusmalony/HerRaise_Planning_CI-Foundation/pull/28/]
 
 
 ## 4. Reflection on Challenges
