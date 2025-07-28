@@ -13,7 +13,7 @@ http://jobbridge.azurewebsites.net
 
 ### Web App Resource
 
-![Web App Screenshot](./screenshots/web app.png)
+![Web App Screenshot](./screenshots/webapp.png)
 
 ### Resource Group
 ![Resource Group](./screenshots/resource.png)
@@ -21,7 +21,7 @@ http://jobbridge.azurewebsites.net
 
 ## Peer Review Pull Request
 
-I reviewed this PR: [Peer Review PR](https://github.com/peer-username/peer-project/pull/12)
+I reviewed this PR: [Peer Review PR](https://github.com/dorcusmalony/HerRaise_Planning_CI-Foundation/pull/23)
 
 ---
 
