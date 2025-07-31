@@ -42,3 +42,4 @@ and the project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 
 ### Added
 - Initial JobBridge application setup using Node.js
 - CI pipeline for linting and testing on pull requests.
+

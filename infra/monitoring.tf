@@ -47,3 +47,4 @@ resource "azurerm_monitor_action_group" "jobbridge_action_group" {
     email_address = "a.duot@alustudent.com"
   }
 }
+
