@@ -58,6 +58,3 @@ jobs:
           app-name: jobbridge-webapp
           images: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-
-
-          
