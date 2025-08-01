@@ -51,7 +51,7 @@ jobs:
           format: 'table'
           exit-code: '0'
           severity: 'CRITICAL,HIGH'
-          
+
       - name: Azure WebApp Deploy (Production)
         uses: azure/webapps-deploy@v2
         with:
@@ -66,3 +66,5 @@ jobs:
           slot-name: staging
           images: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
           publish-profile: ${{ secrets.AZURE_STAGING_PUBLISH_PROFILE }}
+
+          
