@@ -46,6 +46,3 @@ I reviewed this peer's pull request:
 - *App Service Configuration*: Learning to properly configure environment variables and container settings
 - *Database Connectivity*: Ensuring the App Service could connect to PostgreSQL with proper firewall rules
 
-
-
- 
