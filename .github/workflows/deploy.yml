@@ -76,5 +76,3 @@ jobs:
           slot-name: staging
           images: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
           publish-profile: ${{ secrets.AZURE_STAGING_PUBLISH_PROFILE }}
-
-          
