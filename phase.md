@@ -1,33 +1,23 @@
-# Containerization & Infrastructure as Code
+## `phase.md` File – Deployment & Reflection
 
-## Objectives
+### `phase.md` Template:
+```md
+## Live Application URL
+http://jobbridge.azurewebsites.net
 
--  Containerize the jobbridge application
--  Define cloud infrastructure as code using Terraform
--  Perform manual cloud deployment
--  Conduct peer code review
-- Document the process and challenges
+## Screenshots of Azure Resources
 
+### Azure Container Registry
 
-##  1. Live Deployed URL
+https://github.com/AbukDuot/JobBridge/blob/develop/screenshots/Screenshot%202025-07-24%20030228.png
 
-Here is the public URL of my deployed application:
+### Web App Resource
 
- *Live Application*: [Live link to jobbridge website](http://jobbridge.azurewebsites.net/)
+<img width="1355" height="589" alt="Screenshot 2025-07-24 140741" src="https://github.com/user-attachments/assets/01c7bbd9-f37d-41c6-8e13-8db87cbbdeec" />
 
+---
 
-##  2. Screenshots of Provisioned Resources
-
-Below are screenshots of the resources I provisioned in Azure:
-
-###  Resource Group
-[Resource Group](./screenshots/resource-group.png)
-###  App Service
-[App services](./screenshots/webapp.png)
-###  Azure Container Registry 
-[ACR](./screenshots/acr.png)
-
-##  3. Peer Review Pull Request
+## Peer Review Pull Request
 
 I reviewed this peer's pull request:
 
