@@ -39,7 +39,7 @@ jobs:
         with:
           image-ref: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
           format: 'table'
-          exit-code: '0'   
+          exit-code: '0'
           severity: 'CRITICAL,HIGH'
 
       - name: Log in to Azure Container Registry
@@ -52,10 +52,18 @@ jobs:
       - name: Push Docker image
         run: docker push jobbridge.azurecr.io/jobbridge:${{ github.sha }}
 
+      - name: Azure WebApp Deploy (Staging)
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: jobbridge-webapp
+          slot-name: staging
+          images: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
+          publish-profile: ${{ secrets.AZURE_STAGING_PUBLISH_PROFILE }}
+
       - name: Azure WebApp Deploy (Production)
         uses: azure/webapps-deploy@v2
         with:
           app-name: jobbridge-webapp
+          slot-name: production
           images: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
-          slot: production
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
