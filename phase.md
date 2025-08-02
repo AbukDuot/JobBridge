@@ -1,5 +1,4 @@
-# Phase 3 containerization & Infrastructure as Code
-# Containerization & Infrastructure as Code
+# Phase 3 containerization & Infrastructure as Code.
 
 ## Objectives
 
