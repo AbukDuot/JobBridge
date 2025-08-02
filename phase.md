@@ -1,4 +1,4 @@
-# Containerization & Infrastructure as Code
+# Phase 3 containerization & Infrastructure as Code
 
 ## Objectives
 
@@ -8,10 +8,7 @@
 -  Conduct peer code review
 - Document the process and challenges
 
-
 ##  1. Live Deployed URL
-
-Here is the public URL of my deployed application:
 
  *Live Application*: [Live link to jobbridge website](http://jobbridge.azurewebsites.net/)
 
