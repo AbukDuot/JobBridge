@@ -55,7 +55,7 @@ jobs:
       - name: Azure WebApp Deploy (Staging)
         uses: azure/webapps-deploy@v2
         with:
-          app-name: jobbridge-webapp
+          app-name: jobbridge
           slot-name: staging
           images: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
           publish-profile: ${{ secrets.AZURE_STAGING_PUBLISH_PROFILE }}
@@ -63,7 +63,7 @@ jobs:
       - name: Azure WebApp Deploy (Production)
         uses: azure/webapps-deploy@v2
         with:
-          app-name: jobbridge-webapp
+          app-name: jobbridge
           slot-name: production
           images: jobbridge.azurecr.io/jobbridge:${{ github.sha }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
