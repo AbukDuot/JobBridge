@@ -1,4 +1,4 @@
-# Phase 3 containerization & Infrastructure as Code
+# Phase 3 containerization & Infrastructure as Code.
 
 ## Objectives
 
@@ -8,7 +8,11 @@
 -  Conduct peer code review
 - Document the process and challenges
 
+##  2. Screenshots of Provisioned Resources
+
 ##  1. Live Deployed URL
+
+Here is the public URL of my deployed application:
 
  *Live Application*: [Live link to jobbridge website](http://jobbridge.azurewebsites.net/)
 
@@ -41,4 +45,4 @@ I reviewed this peer's pull request:
 ### Manual Deployment Process
 - *Container Registry Setup*: Initially struggled with ACR authentication and permissions
 - *App Service Configuration*: Learning to properly configure environment variables and container settings
-- *Database Connectivity*: Ensuring the App Service could connect to PostgreSQL with proper firewall rules
+- *Database Connectivity*: Ensuring the App Service could connect to PostgreSQL wi

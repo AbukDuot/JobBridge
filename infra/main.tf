@@ -52,7 +52,6 @@ resource "azurerm_app_service_plan" "plan" {
     size = "B1"
   }
 }
-
 resource "azurerm_app_service" "app" {
   name                = "Jobbridge"
   location            = azurerm_resource_group.rg.location

@@ -2,7 +2,7 @@
 
 ## Project Objective
 
-JobBridge is a professional Node.js/Express application designed to demonstrate best practices in project planning, repository security, application development, and automated Continuous Integration (CI).
+JobBridge is a professional application designed to demonstrate best practices in project planning, repository security, application development, and automated Continuous Integration (CI).
 
 ---
 
