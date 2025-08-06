@@ -5,21 +5,29 @@ import appInsights from 'applicationinsights';
 dotenv.config();
 
 // Initialize Application Insights
-appInsights.setup(process.env.APPINSIGHTS_INSTRUMENTATIONKEY)
-  .setAutoCollectRequests(true)
-  .setAutoCollectDependencies(true)
-  .setAutoCollectExceptions(true)
-  .setAutoCollectConsole(true, true)
-  .setSendLiveMetrics(true)
-  .start();
+if (process.env.APPINSIGHTS_CONNECTION_STRING) {
+  appInsights
+    .setup(process.env.APPINSIGHTS_CONNECTION_STRING)
+    .setAutoCollectRequests(true)
+    .setAutoCollectDependencies(true)
+    .setAutoCollectExceptions(true)
+    .setAutoCollectConsole(true, true)
+    .setSendLiveMetrics(true)
+    .start();
+
+  console.log("Application Insights connected.");
+} else {
+  console.warn("No Application Insights connection string found. Skipping telemetry.");
+}
 
 const client = appInsights.defaultClient;
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  // Custom log when homepage is accessed
+  
   client.trackTrace({ message: "Homepage accessed" });
 
   res.send(`<!DOCTYPE html>
