@@ -126,7 +126,7 @@ app.get('/', (req, res) => {
       margin-bottom: 1rem;
     }
     .cta button {
-      background: #ffdd57;
+      background: #0c0c0bff;
       border: none;
       padding: 1rem 2rem;
       font-size: 1rem;
@@ -135,7 +135,7 @@ app.get('/', (req, res) => {
       transition: background 0.3s;
     }
     .cta button:hover {
-      background: #ffc107;
+      background: #0c0c0bff;
     }
     footer {
       background: #222;
@@ -144,7 +144,7 @@ app.get('/', (req, res) => {
       padding: 1.5rem;
     }
     footer a {
-      color: #ffdd57;
+      color: #0c0c0bff;
       text-decoration: none;
       margin: 0 8px;
     }
