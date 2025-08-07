@@ -4,7 +4,9 @@ import appInsights from 'applicationinsights';
 
 dotenv.config();
 
-// Initialize Application Insights
+let client = null;
+
+// Initialize Application Insights only if a connection string exists
 if (process.env.APPINSIGHTS_CONNECTION_STRING) {
   appInsights
     .setup(process.env.APPINSIGHTS_CONNECTION_STRING)
@@ -15,20 +17,19 @@ if (process.env.APPINSIGHTS_CONNECTION_STRING) {
     .setSendLiveMetrics(true)
     .start();
 
+  client = appInsights.defaultClient;
   console.log("Application Insights connected.");
 } else {
   console.warn("No Application Insights connection string found. Skipping telemetry.");
 }
 
-const client = appInsights.defaultClient;
-
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  
-  client.trackTrace({ message: "Homepage accessed" });
+  if (client) {
+    client.trackTrace({ message: "Homepage accessed" });
+  }
 
   res.send(`<!DOCTYPE html>
 <html lang="en">
@@ -240,5 +241,7 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server running at: http://localhost:${PORT}`);
-  client.trackEvent({ name: "ServerStarted", properties: { port: PORT } });
+  if (client) {
+    client.trackEvent({ name: "ServerStarted", properties: { port: PORT } });
+  }
 });
