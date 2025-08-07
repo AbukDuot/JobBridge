@@ -1,27 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import appInsights from 'applicationinsights';
 
 dotenv.config();
 
 let client = null;
-
-// Initialize Application Insights only if a connection string exists
-if (process.env.APPINSIGHTS_CONNECTION_STRING) {
-  appInsights
-    .setup(process.env.APPINSIGHTS_CONNECTION_STRING)
-    .setAutoCollectRequests(true)
-    .setAutoCollectDependencies(true)
-    .setAutoCollectExceptions(true)
-    .setAutoCollectConsole(true, true)
-    .setSendLiveMetrics(true)
-    .start();
-
-  client = appInsights.defaultClient;
-  console.log("Application Insights connected.");
-} else {
-  console.warn("No Application Insights connection string found. Skipping telemetry.");
-}
 
 const app = express();
 const PORT = process.env.PORT || 3000;
