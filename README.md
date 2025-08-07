@@ -135,6 +135,13 @@ Visit http://localhost:3000 in your web browser.
 - **Public GitHub Repository:** [https://github.com/AbukDuot/JobBridge](https://github.com/AbukDuot/JobBridge)
 - **Project Board:** [https://github.com/AbukDuot/JobBridge/projects](https://github.com/AbukDuot/JobBridge/projects)
 
+
+## 🔗 Deployment Links
+
+-  [Production Site](https://jobbridge-cyeua5cfdhe7gnfa.southafricanorth-01.azurewebsites.net)
+-  [Staging Site](https://jobbridge-staging-e2h3fpdhfmdsh4az.southafricanorth-01.azurewebsites.net)
+
+
 ---
 
 ## License
